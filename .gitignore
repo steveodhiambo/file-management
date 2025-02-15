@@ -1,0 +1,75 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables
+.env
+.env.*  
+*.secrets
+
+# Log files
+logs/
+*.log
+*.out
+*.err
+log/
+
+# Pytest and Coverage
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+htmlcov/
+*.cover
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime*
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Database and storage
+instance/
+db.sqlite3
+*.sqlite3
+
+# Static and Media files
+staticfiles/
+media/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.manifest
+*.spec
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# MacOS
+.DS_Store
+
+# Pip Dependencies
+pip-wheel-metadata/
+pip-log.txt
+
+# FastAPI specific
+alembic/versions/  # Ignore Alembic migration history files
